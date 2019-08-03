@@ -1,0 +1,212 @@
+.body {
+  font-family: 'PT Sans', sans-serif;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img,
+abbr {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul li {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: text-bottom;
+}
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+legend {
+  color: #000;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 100%;
+}
+@media screen and (max-width: 780px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.header {
+  background: url(../images/header-bg.png) no-repeat;
+  background-size: cover;
+}
+.header_top {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  align-items: center;
+  height: 100px;
+}
+.header_top .logo {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: calc(50% - 30px);
+  font-size: 36px;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+.header_top .nav {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: calc(50% - 30px);
+  display: flex;
+  justify-content: flex-end;
+}
+.header_top .nav ul > li {
+  display: inline-block;
+}
+.header_top .nav ul > li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.header_top .nav ul > li a:hover {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 9px 19px;
+}
+.header .center-text {
+  text-align: center;
+  color: aliceblue;
+}
+.header .center-text h2 {
+  font-size: 33px;
+  text-transform: uppercase;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.header .center-text p {
+  width: 50%;
+  font-weight: 500;
+  font-size: 18px;
+  margin: auto;
+  line-height: 30px;
+  margin-bottom: 250px;
+}
+.header .mouse {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  margin: 100px auto;
+  box-shadow: 0 0 5px white;
+  cursor: pointer;
+}
+.section {
+  width: 100%;
+  background: url(../images/IPAD.png) no-repeat;
+  background-position: 90% 100%;
+}
+.section_text {
+  width: 500px;
+}
+.section_text h3 {
+  font-size: 30px;
+  margin-top: 100px;
+}
+.section_text p {
+  font-size: 16px;
+  margin: 58px 0;
+  text-align: justify;
+}
+.section_text a {
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 20px;
+  color: #464646;
+  margin-bottom: 103px;
+}
